@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
-}
+		body {
+		font-family: Arial, sans-serif;
+		background-color: #111;
+		color: #fff;
+		margin: 0;
+		padding: 0;
+	}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+	.navbar {
+		background: #222;
+		display: flex;
+		align-items: center;
+		gap: 3rem;
+		padding: 1rem 2rem;
+	}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+	.navbar a {
+		color: #fff;
+		text-decoration: none;
+	}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+	.logo {
+		color: #fff;
+	}
 
-.App-link {
-  color: #61dafb;
-}
+	.home form {
+		display: flex;
+		justify-content: center;
+		margin: 1rem;
+	}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+	.searchInput {
+		padding: 10px;
+	}
+
+	.movie-list {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 1rem;
+	}
+
+	.movie-card {
+		background: #222;
+		padding: 1rem;
+		border-radius: 8px;
+		width: 200px;
+		text-align: center;
+	}
+
+	.movie-card img {
+		width: 100%;
+	}
+
+	.movie-card a {
+		color: #fff;
+	}
