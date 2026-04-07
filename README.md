@@ -1,7 +1,3 @@
-Here is a **concise GitHub repo description (well under 350 words)** you can use in your **README** 🚀
-
----
-
 ## 🎬 Movie Explorer App
 
 **Movie Explorer** is a React-based web application that allows users to search and explore movies using the **OMDb API**. The app fetches movie data from an external API and displays it in a simple and user-friendly interface.
@@ -30,8 +26,3 @@ This project helped me practice working with APIs, React components, and routing
 ### 🌐 API
 
 * **OMDb API**
-
----
-
-If you want, I can also give you:
-⭐ **A professional README template used by top GitHub projects** (with installation steps, screenshots, and demo link).
